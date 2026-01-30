@@ -284,3 +284,6 @@ netstat -nlp
 
 # http://explainshell.com/explain?cmd=iptables+-t+nat+-A+PREROUTING+-p+tcp+--dport+80+-j+REDIRECT+--to-port+8080
 iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080
+echo "MASTER branch: Dino is working on bash_basics"
+pwd
+ls
