@@ -283,4 +283,7 @@ dd if=/dev/zero of=foobar count=1 bs=1M
 netstat -nlp
 
 # http://explainshell.com/explain?cmd=iptables+-t+nat+-A+PREROUTING+-p+tcp+--dport+80+-j+REDIRECT+--to-port+8080
-iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080
+iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080 
+echo "PARALLEL branch: Dino working on bash basics" 
+pwd
+ls -la
